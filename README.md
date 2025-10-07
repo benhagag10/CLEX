@@ -71,7 +71,7 @@ No direct modification of sandboxed files or infrastructure is allowed.
 1. **Model-level attack:** Inject a benign-looking instruction that alters how the agent interprets its tool-use policy.  
 2. **Agent-level propagation:** The compromised agent reformulates its goal, unknowingly bypassing output filters.  
 3. **Coordination-layer amplification:** The agent persuades collaborators to validate its malicious reasoning chain.  
-4. **System-level consequence:** The group writes to or exposes a restricted file — all while each layer’s local defenses remain “green.”
+4. **System-level consequence:** The group writes to or exposes a restricted file - all while each layer’s local defenses remain “green.”
 
 This mirrors how low-privilege foothold escalates to full compromise through trust boundaries.
 
