@@ -29,7 +29,7 @@ CLEX defines a **four-layer modular testbed**:
 
 | Layer | Description |  Frameworks |
 |--------|--------------|--------------------|
-| **Foundation Model** | LLM with safety filters and output restrictions | Mistral-7B, Llama-3-8B (via vLLM/HF) |
+| **Foundation Model** | LLM with security filters and output restrictions | Mistral-7B, Llama-3-8B (via vLLM/HF) |
 | **Agent Layer** | Autonomous reasoning agent using memory and tool calls | LangChain, AutoGen |
 | **Coordination Layer** | Multi-agent communication and task sharing | CAMEL, MetaGPT, AgentSociety |
 | **System Layer** | Sandboxed runtime enforcing I/O and privilege boundaries | Docker, supervisor process |
