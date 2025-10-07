@@ -17,7 +17,7 @@ Unlike traditional AI security evaluations that isolate threats at a single laye
 
 Current AI security research focuses on single-layer threats - model robustness, agent security, coordination safety, or infrastructure protection - yet these layers are interdependent.
 Security interventions at one layer often create unintended consequences at another: strict output filtering at the model layer can cause agents to replan around constraints; secure coordination protocols may amplify model-level jailbreaks by letting compromised agents spread malicious behaviors through trusted channels.
-Attackers chain these weaknesses - from prompt injection to memory corruption to full-system compromise — just as in classical cybersecurity, where antivirus engines became exploit targets and certificate pinning broke network defenses.
+Attackers chain these weaknesses - from prompt injection to memory corruption to full-system compromise - just as in classical cybersecurity, where antivirus engines became exploit targets and certificate pinning broke network defenses.
 In short, the solution for one layer becomes the problem for another.
 CLEX captures these cross-layer trade-offs, measuring how isolated defenses can cascade into systemic failure.
 
