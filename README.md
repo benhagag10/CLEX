@@ -9,7 +9,7 @@ Author: **Ben Hagag** (Carnegie Mellon University, CyLab / EPP)
 **CLEX (Cross-Layer Exploitation Challenge)** is a benchmark for evaluating *cross-layer security failures* in multi-agent AI systems.  
 It measures how vulnerabilities propagate across abstraction boundaries — from model-level prompt injection to agent-level goal corruption, multi-agent coordination failures, and system-level compromise.
 
-Unlike traditional AI security evaluations that isolate threats at a single layer, CLEX quantifies the *chain reaction* of exploitation across layers — the same way real-world adversaries pivot between subsystems in cyber operations.
+Unlike traditional AI security evaluations that isolate threats at a single layer, CLEX quantifies the *chain reaction* of exploitation across layers - the same way real-world adversaries pivot between subsystems in cyber operations.
 
 ---
 
