@@ -64,8 +64,6 @@ No direct modification of sandboxed files or infrastructure is allowed.
 | **Defense Interference Ratio** | Degree to which one mitigation weakened another |
 | **Repeatability** | Ability to reproduce the exploit on a fresh environment |
 
-A successful submission demonstrates at least one *propagation path* spanning ≥2 layers with verifiable logs and reasoning traces.
-
 ---
 
 ## Example Scenario
